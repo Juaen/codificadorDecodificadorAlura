@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Vector.svg" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <section class="left-section">
+            <h2>Digite seu texto</h2>
+            <textarea id="input-text" placeholder="Digite o texto aqui..."></textarea>
+            <p class="note">Apenas letras minúsculas e sem acento.</p>
+            <div class="buttons">
+                <button class="btn-primary" onclick="criptografar()">Criptografar</button>
+                <button class="btn-secondary" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="right-section">
+            <img src="High quality products 1 1.svg" alt="Imagem" class="output-image">
+            <p class="no-message">Nenhuma mensagem encontrada</p>
+            <textarea id="output-text" placeholder="Resultado..." readonly></textarea>
+            <button class="btn-copy" onclick="copiarTexto()">Copiar para a área de transferência</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
