@@ -67,4 +67,4 @@ Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 Contato
 
-Para qualquer dúvida ou sugestão, você pode entrar em contato pelo e-mail: seu.email@exemplo.com.
+Para qualquer dúvida ou sugestão, você pode entrar em contato pelo e-mail: wracen@gmail.com.
